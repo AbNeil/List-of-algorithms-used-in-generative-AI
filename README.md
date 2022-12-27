@@ -182,7 +182,9 @@ Activation functions are important in neural networks because they allow the mod
 
 * Backpropagation: Backpropagation is an algorithm for training neural networks that involves calculating the gradients of the loss function with respect to the model parameters and using these gradients to update the parameters in the direction that reduces the loss. The process of backpropagation involves propagating the error from the output layer back through the network, calculating the gradients at each layer, and updating the weights accordingly.
 
-Gradient descent
+# Optimization algorithms 
+
+* Gradient descent
 
 ![image](https://user-images.githubusercontent.com/88499318/209719765-46f818e6-d2e0-4047-8b84-eab4380c956a.png)
 
@@ -192,10 +194,11 @@ gₜ,ⱼ the derivative of the loss function with respect to the j-th weight dur
 
 ![image](https://user-images.githubusercontent.com/88499318/209719354-1b4f69a8-f859-444e-902d-d0a94765f831.png)
 
-Adam optimization: Adam (Adaptive Moment Estimation) is a gradient-based optimization algorithm for training neural networks that combines the ideas of SGD and momentum optimization. Adam uses an exponentially decaying average of the gradients and the squared gradients to adapt the learning rate for each parameter. The Adam optimization algorithm changes by appplication and build, some examples:
+*  Adam optimization: Adam (Adaptive Moment Estimation) is a gradient-based optimization algorithm for training neural networks that combines the ideas of SGD and momentum optimization. Adam uses an exponentially decaying average of the gradients and the squared gradients to adapt the learning rate for each parameter. The Adam optimization algorithm changes by appplication and build, some examples:
 
 ![image](https://user-images.githubusercontent.com/88499318/209719568-25904de6-3f03-4170-bbf8-34408d89e07b.png)
 
-![image](https://user-images.githubusercontent.com/88499318/209719581-bf735cde-50b9-44c8-bcf2-e33c88e5b245.png)
 
 Even though it has good training time, Adam in some areas does not converge to an optimal solution, so for some tasks (such as image classification on popular CIFAR datasets) state-of-the-art results are still only achieved by applying SGD with momentum.
+
+![image](https://user-images.githubusercontent.com/88499318/209719581-bf735cde-50b9-44c8-bcf2-e33c88e5b245.png)
