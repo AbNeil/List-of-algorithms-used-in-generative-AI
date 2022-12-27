@@ -100,55 +100,6 @@
 
 * Q-learning
 * SARSA
-## Technologies used with neural networks
-
-#### Supervised learning
-
-* Linear regression
-* Logistic regression
-* Support vector machines (SVMs)
-* Decision trees
-* Random forests
-* Neural networks
-* Deep learning
-* Naive Bayes
-* K-nearest neighbors (KNN)
-* AdaBoost
-* Gradient boosting
-* Extreme gradient boosting (XGBoost)
-* LogitBoost
-* Multi-layer perceptron (MLP)
-* Perceptron
-* Linear discriminant analysis (LDA)
-* Quadratic discriminant analysis (QDA)
-* Partial least squares (PLS)
-* Least absolute shrinkage and selection operator (LASSO)
-* Elastic net
-* Ridge regression
-* Support vector regression (SVR)
-
-#### Unsupervised learning
-
-* K-means clustering
-* Hierarchical clustering
-* Self-organizing maps (SOMs)
-* Expectation-maximization (EM)
-* Principal component analysis (PCA)
-* Singular value decomposition (SVD)
-* Factor analysis
-* Independent component analysis (ICA)
-* Autoencoders
-* Deep belief networks (DBNs)
-* Hidden Markov models (HMMs)
-* Markov random fields (MRFs)
-* Restricted Boltzmann machines (RBMs)
-* Deep Boltzmann machines (DBMs)
-* Non-negative matrix factorization (NMF)
-
-#### Reinforcement learning
-
-* Q-learning
-* SARSA
 * DDPG
 * A3C
 
