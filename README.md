@@ -152,7 +152,7 @@ where *f* is the input data, *g* is the pooling function (e.g., max), and *h* is
 
 - **Fully connected layer:** A fully connected layer is a traditional neural network layer that connects all the neurons in the previous layer to all the neurons in the current layer. The fully connected layer performs a linear combination of the input data followed by an activation function. The formula for a fully connected layer is:
 
-![fully connected formula](![image](https://user-images.githubusercontent.com/88499318/209717287-4ebcc757-de9d-4bcc-8a5c-c97aabacfc50.png)
+(![image](https://user-images.githubusercontent.com/88499318/209717287-4ebcc757-de9d-4bcc-8a5c-c97aabacfc50.png)
 
 Each individual function consists of a neuron (or a perceptron). In fully connected layers, the neuron applies a linear transformation to the input vector through a weights matrix. A non-linear transformation is then applied to the product through a non-linear activation function f and taking the dot product between the weights matrix W and the input vector x. The bias term (W0) can be added inside the non-linear function.
 The generator aims to minimize the objective, and the discriminator aims to maximize the objective.
