@@ -143,12 +143,13 @@ where f is the input data, g is the pooling function (e.g., sum), and h is the o
 > Output = sum(Input[i:i+2, j:j+2]) / 4
 
 where Output is the resulting value after the average pooling operation, and Input is the matrix of input values. The sum function calculates the sum of all values in the input window, and the division by 4 is used to compute the average (since the window size is 2x2 in this example).
+
     * Expectation Pooling
+    
     *![image](https://user-images.githubusercontent.com/88499318/209716583-846e53d8-1421-4018-b99d-10ed52695df2.png)
 
  (A) The overall design of Expectation Pooling. (B) Equations describing how ePooling computes. (C) The output of ePooling is (up to a constant difference) exactly the log-likelihood of the corresponding PWM.
 
-where *f* is the input data, *g* is the pooling function (e.g., max), and *h* is the output of the pooling operation.
 
 - **Fully connected layer:** A fully connected layer is a traditional neural network layer that connects all the neurons in the previous layer to all the neurons in the current layer. The fully connected layer performs a linear combination of the input data followed by an activation function. The formula for a fully connected layer is:
 
