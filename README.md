@@ -12,7 +12,7 @@ it is necessary to generate 3D images.
 
 Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
 
-#### Image-to-Text models
+#### Image-to-Text
 
 VisualGPT made by OpenAI, VisualGPT leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. In particular, improving data efficiency in image captioning networks would enable quick data curation, description of rare objects, and applications in specialized domains.
 
@@ -24,7 +24,7 @@ Phenaki, developed by Google Research, can generate realistic videos from a sequ
 
 Soundify, developed by Runway, is a system that matches sound effects to video for professional video editing. It uses quality sound effects libraries and a neural network with zero-shot image classification capabilities (CLIP) to classify, synchronize, and mix sound effects with a video. The video is split based on color histogram distances to reduce distinct sound emitters, and intervals are identified by comparing the effects label with each frame and pinpointing consecutive matches above a threshold. Effects are then split into one-second chunks and stitched via crossfades.
  
-#### Video-to-text models
+#### Video-to-text
 [Google Muse](https://muse.ai/)
 
 
@@ -37,7 +37,7 @@ Jukebox :by OpenAI this model tries to solve it by means of a hierarchical VQ-VA
 #### Audio-to-text
 Shazam and google search using Discrete FFT fast fourier transforms
 
-#### Audio to Midi (Acts as a a convertor more than generative "generator")
+#### Audio to Midi (Acts as a a convertor more than generative "producer")
 
 [Spotify Basic Pitch](https://basicpitch.spotify.com/) 
 
