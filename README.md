@@ -10,9 +10,7 @@ i.e Stable diffusion, imagen, midjourney
 The models that have been described in the previous section deal with the mapping of text prompts to 2D images. However, for some industries like gaming,
 it is necessary to generate 3D images. 
 
-Magic3D : This model is a text to 3D model made by NVIDIA.
-
-Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis [24]. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator
+Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
 
 #### Image-to-Text models
 
