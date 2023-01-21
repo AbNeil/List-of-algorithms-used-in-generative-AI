@@ -37,7 +37,7 @@ Jukebox :by OpenAI this model tries to solve it by means of a hierarchical VQ-VA
 #### Audio-to-text
 Shazam and google search using Discrete FFT fast fourier transforms
 
-#### Audio to Midi (More of a convertor than a generative "producer")
+#### Audio to Midi
 
 [Spotify Basic Pitch](https://basicpitch.spotify.com/) 
 
