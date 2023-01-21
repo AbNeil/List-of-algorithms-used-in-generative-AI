@@ -3,7 +3,8 @@
 #### Text-to-image
 Input is a text prompt
 output is an image.
-Stable diffusion, imagen 
+
+i.e Stable diffusion, imagen, midjourney
 
 ####  Text-to-3D models
 The models that have been described in the previous section deal with the mapping of text prompts to 2D images. However, for some industries like gaming,
@@ -22,6 +23,7 @@ Input is a text prompt
 output is an entire video!
 Two models that can perform video synthesis are:
 Phenaki, developed by Google Research, can generate realistic videos from a sequence of textual prompts. It can be accessed via its API on GitHub, and is the first model that can generate videos from open domain time variable prompts. It achieves this by jointly training on a large image-text pairs dataset and a smaller number of video-text examples, resulting in generalization beyond what is available in video datasets.
+
 Soundify, developed by Runway, is a system that matches sound effects to video for professional video editing. It uses quality sound effects libraries and a neural network with zero-shot image classification capabilities (CLIP) to classify, synchronize, and mix sound effects with a video. The video is split based on color histogram distances to reduce distinct sound emitters, and intervals are identified by comparing the effects label with each frame and pinpointing consecutive matches above a threshold. Effects are then split into one-second chunks and stitched via crossfades.
  
 #### Video-to-text models
@@ -31,6 +33,7 @@ Soundify, developed by Runway, is a system that matches sound effects to video f
 #### Text-to-Audio
 
 AudioLM : by Google for high-quality audio generation with long-term consistency. In particular, AudioLM maps the input audio into a sequence of discrete tokens and casts audio generation as language modeling task in this representation space. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. The approach can be extended beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music. Audio signals involve multiple scales of abstractions. When it comes to audio synthesis, multiple scales make achieving high audio quality while displaying consistency very challenging. This is achieved by this model by combining recent advances in neural audio compression, self-supervised representation learning and language modelling
+
 Jukebox :by OpenAI this model tries to solve it by means of a hierarchical VQ-VAE architecture to compress audio into a latent space, with a loss function designed to retain the most amount of information.
  
 #### Audio-to-text
