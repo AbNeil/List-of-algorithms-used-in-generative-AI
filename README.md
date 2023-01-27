@@ -6,12 +6,6 @@ output is an image.
 
 i.e Stable diffusion, imagen, midjourney
 
-####  Text-to-3D models
-The models that have been described in the previous section deal with the mapping of text prompts to 2D images. However, for some industries like gaming,
-it is necessary to generate 3D images. 
-
-Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
-
 #### Image-to-Text
 
 VisualGPT made by OpenAI, VisualGPT leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. In particular, improving data efficiency in image captioning networks would enable quick data curation, description of rare objects, and applications in specialized domains.
@@ -26,6 +20,14 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 [Google Muse](https://muse.ai/)
 
 Soundify, developed by Runway, is a system that matches sound effects to video for professional video editing. It uses quality sound effects libraries and a neural network with zero-shot image classification capabilities (CLIP) to classify, synchronize, and mix sound effects with a video. The video is split based on color histogram distances to reduce distinct sound emitters, and intervals are identified by comparing the effects label with each frame and pinpointing consecutive matches above a threshold. Effects are then split into one-second chunks and stitched via crossfades.
+
+####  Text-to-3Dmodel
+ 
+Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
+
+### Image-to-3Dmodel
+
+[Get3d](https://github.com/nv-tlabs/GET3D) and the more streamlined [Instant NGP](https://github.com/NVlabs/instant-ngp) are two open source CUDA models for generating a 3d map of an image(s) [made by NVidia](https://nvlabs.github.io/instant-ngp/)
 
 #### Text-to-Audio
 
@@ -128,7 +130,8 @@ Shazam and google search using Discrete FFT fast fourier transforms
 
 #### Unsupervised learning
 
-* K-means clustering
+* Autoencoders
+* * K-means clustering
 * Hierarchical clustering
 * Self-organizing maps (SOMs)
 * Expectation-maximization (EM)
@@ -136,7 +139,7 @@ Shazam and google search using Discrete FFT fast fourier transforms
 * Singular value decomposition (SVD)
 * Factor analysis
 * Independent component analysis (ICA)
-* Autoencoders
+* [Markov Chain Monte Carlo](https://jeremykun.com/2015/04/06/markov-chain-monte-carlo-without-all-the-bullshit/) (MCMC)
 * Deep belief networks (DBNs)
 * Hidden Markov models (HMMs)
 * Markov random fields (MRFs)
@@ -248,3 +251,5 @@ gₜ,ⱼ the derivative of the loss function with respect to the j-th weight dur
 Even though it has good training time, Adam in some areas does not converge to an optimal solution, so for some tasks (such as image classification on popular CIFAR datasets) state-of-the-art results are still only achieved by applying SGD with momentum.
 
 ![image](https://user-images.githubusercontent.com/88499318/209719581-bf735cde-50b9-44c8-bcf2-e33c88e5b245.png)
+
+Markov Chain Monte Carlo (MCMC) is a class of algorithms used for sampling from a high-dimensional probability distribution. The basic idea is to use a Markov chain to explore the state space of the distribution, with the stationary distribution of the chain being the target distribution. The algorithm iteratively generates samples from the chain, with each sample providing an approximation of the target distribution. Some common examples of MCMC algorithms include Metropolis-Hastings, Gibbs sampling, and the Hamiltonian Monte Carlo.
