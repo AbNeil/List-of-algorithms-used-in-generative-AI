@@ -17,9 +17,7 @@ Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a 
 VisualGPT made by OpenAI, VisualGPT leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. In particular, improving data efficiency in image captioning networks would enable quick data curation, description of rare objects, and applications in specialized domains.
 
 #### Text-to-Video
-Input is a text prompt
-output is an entire video!
-Two models that can perform video synthesis are:
+ 
 Phenaki, developed by Google Research, can generate realistic videos from a sequence of textual prompts. It can be accessed via its API on GitHub, and is the first model that can generate videos from open domain time variable prompts. It achieves this by jointly training on a large image-text pairs dataset and a smaller number of video-text examples, resulting in generalization beyond what is available in video datasets.
 
 Soundify, developed by Runway, is a system that matches sound effects to video for professional video editing. It uses quality sound effects libraries and a neural network with zero-shot image classification capabilities (CLIP) to classify, synchronize, and mix sound effects with a video. The video is split based on color histogram distances to reduce distinct sound emitters, and intervals are identified by comparing the effects label with each frame and pinpointing consecutive matches above a threshold. Effects are then split into one-second chunks and stitched via crossfades.
