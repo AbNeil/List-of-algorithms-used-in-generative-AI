@@ -131,13 +131,13 @@ Shazam and google search using Discrete FFT fast fourier transforms
 #### Unsupervised learning
 
 * Autoencoders
-* * K-means clustering
+* Factor analysis
+* K-means clustering
 * Hierarchical clustering
 * Self-organizing maps (SOMs)
 * Expectation-maximization (EM)
 * Principal component analysis (PCA)
 * Singular value decomposition (SVD)
-* Factor analysis
 * Independent component analysis (ICA)
 * [Markov Chain Monte Carlo](https://jeremykun.com/2015/04/06/markov-chain-monte-carlo-without-all-the-bullshit/) (MCMC)
 * Deep belief networks (DBNs)
