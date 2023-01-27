@@ -12,18 +12,18 @@ VisualGPT made by OpenAI, VisualGPT leverages knowledge from GPT-2. In order to 
 
 #### Text-to-Video
  
-[Phenaki](https://phenaki.video/), developed by Google Research, can generate realistic videos from a sequence of textual prompts. It can be accessed via its API on GitHub, and is the first model that can generate videos from open domain time variable prompts. It achieves this by jointly training on a large image-text pairs dataset and a smaller number of video-text examples, resulting in generalization beyond what is available in video datasets.
+[Phenaki](https://phenaki.video/): by Google, can generate realistic videos from a sequence of textual prompts. It can be accessed via its API on GitHub, and is the first model that can generate videos from open domain time variable prompts. It achieves this by jointly training on a large image-text pairs dataset and a smaller number of video-text examples, resulting in generalization beyond what is available in video datasets.
 
 Additionally two open source demo models [CogVideo](https://github.com/THUDM/CogVideo) by a groups of cs students and a model by [Antonia Antonova](https://antonia.space/text-to-video-generation) have presented their own innovative methods of generating video from text
  
 #### Video-to-text
 [Google Muse](https://muse.ai/)
 
-Soundify, developed by Runway, is a system that matches sound effects to video for professional video editing. It uses quality sound effects libraries and a neural network with zero-shot image classification capabilities (CLIP) to classify, synchronize, and mix sound effects with a video. The video is split based on color histogram distances to reduce distinct sound emitters, and intervals are identified by comparing the effects label with each frame and pinpointing consecutive matches above a threshold. Effects are then split into one-second chunks and stitched via crossfades.
+[Soundify](https://research.runwayml.com/soundify-matching-sound-effects-to-video): by Runway, is a system that matches sound effects to video for professional video editing. It uses quality sound effects libraries and a neural network with zero-shot image classification capabilities (CLIP) to classify, synchronize, and mix sound effects with a video. The video is split based on color histogram distances to reduce distinct sound emitters, and intervals are identified by comparing the effects label with each frame and pinpointing consecutive matches above a threshold. Effects are then split into one-second chunks and stitched via crossfades.
 
 ####  Text-to-3Dmodel
  
-Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
+Dreamfusion: DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
 
 ### Image-to-3Dmodel
 
@@ -31,9 +31,9 @@ Dreamfusion : DreamFusion is a text-to-3D model developed by Google that uses a 
 
 #### Text-to-Audio
 
-AudioLM : by Google for high-quality audio generation with long-term consistency. In particular, AudioLM maps the input audio into a sequence of discrete tokens and casts audio generation as language modeling task in this representation space. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. The approach can be extended beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music. Audio signals involve multiple scales of abstractions. When it comes to audio synthesis, multiple scales make achieving high audio quality while displaying consistency very challenging. This is achieved by this model by combining recent advances in neural audio compression, self-supervised representation learning and language modelling
+[AudioLM](https://google-research.github.io/seanet/audiolm/examples/): by Google for high-quality audio generation with long-term consistency. In particular, AudioLM maps the input audio into a sequence of discrete tokens and casts audio generation as language modeling task in this representation space. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. The approach can be extended beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music. Audio signals involve multiple scales of abstractions. When it comes to audio synthesis, multiple scales make achieving high audio quality while displaying consistency very challenging. This is achieved by this model by combining recent advances in neural audio compression, self-supervised representation learning and language modelling
 
-Jukebox :by OpenAI this model tries to solve it by means of a hierarchical VQ-VAE architecture to compress audio into a latent space, with a loss function designed to retain the most amount of information.
+[Jukebox](https://openai.com/blog/jukebox/): by OpenAI this model tries to solve it by means of a hierarchical VQ-VAE architecture to compress audio into a latent space, with a loss function designed to retain the most amount of information.
  
 #### Audio-to-text
 Shazam and google search using Discrete FFT fast fourier transforms
