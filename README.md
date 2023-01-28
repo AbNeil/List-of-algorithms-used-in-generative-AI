@@ -25,9 +25,9 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 
 [Text to live](https://text2live.github.io/) augments the scene with new visual effects based on input text
 
-####  Text-to-3Dmvideo
+####  Text-to-3Dvideo
 
-[MAV3D]](https://make-a-video3d.github.io/) by Facebook uses a 4D dynamic Neural Radiance Field (NeRF), which is optimized for scene appearance, density, and motion consistency by querying a t2v diffusion model. The dynamic video output generated from the provided text can be viewed from any camera location and angle, and can be composited into any 3D environment. MAV3D does not require any 3D or 4D data and the T2V model is trained only on Text-Image pairs and unlabeled videos. 
+[MAV3](https://make-a-video3d.github.io/) by Facebook uses a 4D dynamic Neural Radiance Field (NeRF), which is optimized for scene appearance, density, and motion consistency by querying a t2v diffusion model. The dynamic video output generated from the provided text can be viewed from any camera location and angle, and can be composited into any 3D environment. MAV3D does not require any 3D or 4D data and the T2V model is trained only on Text-Image pairs and unlabeled videos. 
 
 ####  Text-to-3Dmodel
  
