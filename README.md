@@ -25,6 +25,10 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 
 [Text to live](https://text2live.github.io/) augments the scene with new visual effects based on input text
 
+####  Text-to-3Dmvideo
+
+[MAV3D]](https://make-a-video3d.github.io/) by Facebook uses a 4D dynamic Neural Radiance Field (NeRF), which is optimized for scene appearance, density, and motion consistency by querying a t2v diffusion model. The dynamic video output generated from the provided text can be viewed from any camera location and angle, and can be composited into any 3D environment. MAV3D does not require any 3D or 4D data and the T2V model is trained only on Text-Image pairs and unlabeled videos. 
+
 ####  Text-to-3Dmodel
  
 Dreamfusion: DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
