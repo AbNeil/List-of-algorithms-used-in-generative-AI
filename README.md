@@ -21,7 +21,7 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 
 [Soundify](https://research.runwayml.com/soundify-matching-sound-effects-to-video): by Runway, is a system that matches sound effects to video for professional video editing. It uses quality sound effects libraries and a neural network with zero-shot image classification capabilities (CLIP) to classify, synchronize, and mix sound effects with a video. The video is split based on color histogram distances to reduce distinct sound emitters, and intervals are identified by comparing the effects label with each frame and pinpointing consecutive matches above a threshold. Effects are then split into one-second chunks and stitched via crossfades.
 
-### Video-to-video
+#### Video-to-video
 
 [Text to live](https://text2live.github.io/) augments the scene with new visual effects based on input text
 
