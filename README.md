@@ -8,7 +8,7 @@ i.e Stable diffusion, imagen, midjourney
 
 #### Image-to-Text 
 
-VisualGPT made by OpenAI, leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. In particular, improving data efficiency in image captioning networks would enable quick data curation, description of rare objects, and applications in specialized domains and many others for image classsification.
+VisualGPT made by OpenAI, leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. In particular, improving data efficiency in image captioning networks would enable quick data curation, description of rare objects, and applications in specialized domains and many others such as Bootstrapping Language-Image Pre-training BLIP for image classsification by salesforce.
 
 #### Text-to-Video
  
