@@ -31,7 +31,9 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 
 ####  Text-to-3Dmodel
  
-Dreamfusion: DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. Magic3D is another text to 3D model made by NVIDIA.
+[Dreamfusion](https://dreamfusion3d.github.io/): DreamFusion is a text-to-3D model developed by Google that uses a pretrained 2D text-to-image diffusion model to perform textto-3D synthesis. In particular, Dreamfusion replaces previous CLIP techniques with a loss derived from distillation of a 2D diffusion model. Concretely, the diffusion model can be used as a loss within a generic continuous optimization problem to generate samples. Critically, sampling in parameter space is much harder than in pixels as we want to create 3D models that look like good images when rendered from random angles. To solve the issue, this model uses a differentiable generator. 
+
+[Magic3D](https://research.nvidia.com/labs/dir/magic3d/) is another text to 3D model made by NVIDIA.
 
 #### Image-to-3Dmodel
 
@@ -45,7 +47,7 @@ Dreamfusion: DreamFusion is a text-to-3D model developed by Google that uses a p
 
 * text-to-Speech
 
-[nvidia Riva](https://www.nvidia.com/en-us/ai-data-science/products/riva/) NVIDIA® Riva is a GPU-accelerated automatic speech recognition (ASR) SDK for building fully customizable, real-time conversational AI pipelines and deploying them in clouds, in data centers, at the edge, or on embedded devices.
+[nvidia Riva](https://www.nvidia.com/en-us/ai-data-science/products/riva/) is a GPU-accelerated automatic speech recognition (ASR) SDK for building fully customizable, real-time conversational AI pipelines and deploying them in clouds, in data centers, at the edge, or on embedded devices.
 
 
  
