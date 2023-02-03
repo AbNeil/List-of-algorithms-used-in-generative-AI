@@ -41,7 +41,13 @@ Dreamfusion: DreamFusion is a text-to-3D model developed by Google that uses a p
 
 [AudioLM](https://google-research.github.io/seanet/audiolm/examples/): by Google for high-quality audio generation with long-term consistency. In particular, AudioLM maps the input audio into a sequence of discrete tokens and casts audio generation as language modeling task in this representation space. By training on large corpora of raw audio waveforms, AudioLM learns to generate natural and coherent continuations given short prompts. The approach can be extended beyond speech by generating coherent piano music continuations, despite being trained without any symbolic representation of music. Audio signals involve multiple scales of abstractions. When it comes to audio synthesis, multiple scales make achieving high audio quality while displaying consistency very challenging. This is achieved by this model by combining recent advances in neural audio compression, self-supervised representation learning and language modelling
 
-[Jukebox](https://openai.com/blog/jukebox/): music generation alternative by OpenAI this model tries to solve it by means of a hierarchical VQ-VAE architecture to compress audio into a latent space, with a loss function designed to retain the most amount of information.
+[Jukebox](https://openai.com/blog/jukebox/): a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along with a tool to explore the generated samples.
+
+* text-to-Speech
+
+[nvidia Riva](https://www.nvidia.com/en-us/ai-data-science/products/riva/) NVIDIA® Riva is a GPU-accelerated automatic speech recognition (ASR) SDK for building fully customizable, real-time conversational AI pipelines and deploying them in clouds, in data centers, at the edge, or on embedded devices.
+
+
  
 #### Audio-to-text
 Shazam and google search using Discrete FFT fast fourier transforms for audio classsification
