@@ -119,7 +119,12 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * Optimization algorithm (e.g., SGD, Adam)
 * Up-sampling layer
 
-## Technologies used with neural networks
+## Paradigms
+
+#### Online learning
+#### Semi-supervised learning
+#### Self-supervised learning
+#### Batch learning
 
 #### Supervised learning
 
