@@ -1,10 +1,12 @@
 ## Generative AI models categories
 
-#### Text-to-image
-Input is a text prompt
-output is an image.
+#### Text-to-text
 
-i.e Stable diffusion, imagen, midjourney
+LLMs like Google Bard, Bing Now, and GPT 3.5
+
+#### Text-to-image
+
+Stable diffusion, imagen, midjourney
 
 #### Image-to-Text 
 
