@@ -10,7 +10,7 @@ Stable diffusion, imagen, midjourney
 
 #### Image-to-Text 
 
-VisualGPT made by OpenAI, leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. In particular, improving data efficiency in image captioning networks would enable quick data curation, description of rare objects, and applications in specialized domains and many others such as Bootstrapping Language-Image Pre-training BLIP for image classsification by salesforce.
+VisualGPT made by OpenAI, leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. [BLIP](https://github.com/salesforce/BLIP) for image classsification by salesforce.
 
 #### Text-to-Video
  
@@ -52,14 +52,16 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 
 [Jukebox](https://openai.com/blog/jukebox/): a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along with a tool to explore the generated samples.
 
-* text-to-Speech
-
-[nvidia Riva](https://www.nvidia.com/en-us/ai-data-science/products/riva/) is a GPU-accelerated automatic speech recognition (ASR) SDK for building fully customizable, real-time conversational AI pipelines and deploying them in clouds, in data centers, at the edge, or on embedded devices.
-
 [AudioLM](https://google-research.github.io/seanet/audiolm/examples/): by Google for high-quality audio generation with long-term consistency.
 
+* text-to-Speech
+
+VALL-E (neural codec language model) based on Meta's EnCodec, trained for speech-synthesis capabilities on the audio library LibriLight which contains 60,000 hours of English language speech from more than 7,000 speakers, curated from LibriVox. It can allegedly simulate anyone’s voice with 3 seconds of audio input.
+
+[nvidia Riva](https://www.nvidia.com/en-us/ai-data-science/products/riva/) is a GPU-accelerated automatic speech recognition (ASR) SDK for building fully customizable, real-time conversational AI pipelines and deploying them in clouds, in data centers, at the edge, or on embedded devices.
  
 #### Audio-to-text
+
 Shazam and google search using Discrete FFT fast fourier transforms for audio classsification
 
 #### Audio to Midi
@@ -189,6 +191,19 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * Feature extraction
 
 # Detailed with formulas, equations or processes
+
+#### Learning analysis 
+### Supervised learning
+
+ Linear regression: When you have 2 variables, an independent variable (lets call it X) and the dependent variable (lets call it Y). Linear regression is a test to do 2 things:
+
+ * To see how closely related are these two variables, applying linear regression gives us a number between -1 and 1 that gives us an indication of the the strength of correlation between the two. 0 means they aren't related. 1 means they are positively correlated (an increase in X means an increase in Y). -1 means negatively correlated (increase in X means a decrease in Y and vice versa) it is easy to extend to more than 2 variables. The only difference is instead of line you will get a plane in 3 and a hyper plane in 4+D.
+
+ * For prediction. If we know the rough relationship between X and Y, then we can use this relationship to predict values of Y for a value of X we want.
+
+For example: Lets say X is the number of workers in a painting job and Y is the amount of time needed to finish a job. You do several jobs with different numbers of workers and you time how much it takes to finish each job.
+
+We put those pretty numbers in a graph and do a simple linear regression and we learn 2 things: Does increasing the number of workers really decrease the time needed to finish a job? (i.e. are they correlated and how much). Second, if we get a customer who wants the job done in a very short time, then we can use our study to predict how many workers it might need to finish it.
 
 #### CNNs
 
