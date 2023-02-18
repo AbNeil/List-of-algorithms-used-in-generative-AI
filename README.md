@@ -2,7 +2,7 @@
 
 #### Text-to-text
 
-LLMs like Google Bard, Bing Now, and GPT 3.5
+LLMs like Google Bard, BingGPT, and GPT 3.5
 
 #### Text-to-image
 
