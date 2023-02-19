@@ -54,7 +54,7 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 
 [AudioLM](https://google-research.github.io/seanet/audiolm/examples/): by Google for high-quality audio generation with long-term consistency.
 
-* text-to-Speech
+* Text-to-Speech
 
 VALL-E (neural codec language model) based on Meta's EnCodec, trained for speech-synthesis capabilities on the audio library LibriLight which contains 60,000 hours of English language speech from more than 7,000 speakers, curated from LibriVox. It can allegedly simulate anyone’s voice with 3 seconds of audio input.
 
@@ -64,7 +64,11 @@ VALL-E (neural codec language model) based on Meta's EnCodec, trained for speech
 
 Shazam and google search using Discrete FFT fast fourier transforms for audio classsification
 
-#### Audio to Midi
+####  Audio to Audio
+
+[SingSong](https://storage.googleapis.com/sing-song/index.html) Generates Accompanying Music for Singing.
+
+* Audio to Midi
 
 [Spotify Basic Pitch](https://basicpitch.spotify.com/) 
 
