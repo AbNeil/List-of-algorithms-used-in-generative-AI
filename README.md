@@ -1,4 +1,4 @@
-## Generative AI models categories
+## Generative AI models and their categories:
 
 #### Text-to-text
 
@@ -72,7 +72,7 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 [Spotify Basic Pitch](https://basicpitch.spotify.com/) 
 
 
-## Artificial Neural Networks used in Generative AI
+## Deep Neural Networks 
 
 #### CNNs
 
@@ -130,7 +130,7 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * Optimization algorithm (e.g., SGD, Adam)
 * Up-sampling layer
 
-## Paradigms
+## Paradigms with algorithms
 
 #### Online learning
 #### Semi-supervised learning
@@ -193,7 +193,7 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * Fine-tuning
 * Feature extraction
 
-# Detailed with formulas, equations or processes
+# Explanation with formulas, equations or processes
 
 #### Learning analysis 
 ### Supervised learning
