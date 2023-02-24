@@ -2,7 +2,7 @@
 
 #### Text-to-text
 
-LLMs like Google Bard, BingGPT, and GPT 3.5 trained on 175 Billion paramters or [Minerva](https://arxiv.org/pdf/2206.14858.pdf) the largest trained on 540 Billion paramters 
+LLMs like Google Bard, Bing, and GPT 3.5 trained on 175 Billion paramters or [Minerva](https://arxiv.org/pdf/2206.14858.pdf) the largest trained on 540 Billion paramters 
 #### Text-to-image
 
 Stable diffusion, imagen, midjourney
