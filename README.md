@@ -5,7 +5,7 @@
 LLMs like Google Bard, Bing, and GPT 3.5 trained on 175 Billion paramters or [Minerva](https://arxiv.org/pdf/2206.14858.pdf) the largest trained on 540 Billion paramters 
 #### Text-to-image
 
-Stable diffusion, imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" gaussian noise image and expands out of latent space for a variational autoencoder decoder that cleans the images of any remaining noise 
+Stable diffusion, imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" gaussian noise image and expands out of latent space using a variational autoencoder decoder that cleans the images of any remaining noise 
 
 #### Image-to-Text 
 
