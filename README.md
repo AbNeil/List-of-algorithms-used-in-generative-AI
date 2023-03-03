@@ -2,7 +2,8 @@
 
 #### Text-to-text
 
-LLMs like Google Bard, Bing, and GPT 3.5 trained on 175 Billion paramters or [Minerva](https://arxiv.org/pdf/2206.14858.pdf) the largest trained on 540 Billion paramters 
+LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion paramters yet outperforming [Minerva's PALM](https://arxiv.org/pdf/2206.14858.pdf) the largest trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets.
+
 #### Text-to-image
 
 Stable diffusion, imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" gaussian noise image and expands out of latent space using a variational autoencoder decoder that cleans the images of any remaining noise 
