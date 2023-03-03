@@ -10,7 +10,9 @@ Stable diffusion, imagen, midjourney work using and encoder netwwork like frozen
 
 #### Image-to-Text 
 
-VisualGPT made by OpenAI, leverages knowledge from GPT-2. In order to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function. Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models. [BLIP](https://github.com/salesforce/BLIP) for image classsification by salesforce.
+[VisualGPT](https://arxiv.org/abs/2102.10407) attempts to bridge the semantic gap between different modalities, a novel encoder-decoder attention mechanism is designed with an unsaturated rectified gating function it outperforms the best baseline model by up to 10.8% CIDEr on MS COCO and up to 5.4% CIDEr on Conceptual Captions, and achieves the state-of-the-art result on IU X-ray, a medical report generation dataset.Critically, the biggest advantage of this model is that it does not need for as much data as other image-to-text models.
+
+[BLIP](https://github.com/salesforce/BLIP) by salesforce for image classsification.
 
 #### Text-to-Video
  
