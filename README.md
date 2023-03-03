@@ -300,3 +300,15 @@ Even though it has good training time, Adam in some areas does not converge to a
 ![image](https://user-images.githubusercontent.com/88499318/209719581-bf735cde-50b9-44c8-bcf2-e33c88e5b245.png)
 
 Markov Chain Monte Carlo (MCMC) is a class of algorithms used for sampling from a high-dimensional probability distribution. The basic idea is to use a Markov chain to explore the state space of the distribution, with the stationary distribution of the chain being the target distribution. The algorithm iteratively generates samples from the chain, with each sample providing an approximation of the target distribution. Some common examples of MCMC algorithms include Metropolis-Hastings, Gibbs sampling, and the Hamiltonian Monte Carlo.
+
+There are several sub-algorithms that fall under the umbrella of Markov Chain Monte Carlo (MCMC) methods, including:
+
+Metropolis-Hastings algorithm: This is one of the simplest MCMC algorithms and involves proposing a new state based on the current state, and accepting or rejecting the proposal based on a random acceptance/rejection rule.
+
+Gibbs sampling: This algorithm is used when the target distribution can be decomposed into a series of conditionally independent distributions. The algorithm samples from each of these distributions in turn to obtain a sample from the target distribution.
+
+Hamiltonian Monte Carlo (HMC): This is a more advanced MCMC algorithm that takes into account the gradient information of the target distribution. It uses gradient information to propose a new state in such a way that the acceptance rate is high, leading to faster convergence.
+
+Slice sampling: This is a simple and efficient MCMC algorithm that can be used when the target distribution is univariate (one-dimensional). It works by sampling uniformly from a slice of the target distribution.
+
+Each of these sub-algorithms has its own advantages and disadvantages, and the choice of which one to use depends on the problem at hand.
