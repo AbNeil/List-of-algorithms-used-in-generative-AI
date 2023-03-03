@@ -2,7 +2,7 @@
 
 #### Text-to-text
 
-LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion paramters yet outperforming [Minerva's PALM](https://arxiv.org/pdf/2206.14858.pdf) the largest trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets.
+LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion paramters yet outperforming [Minerva's ](https://arxiv.org/pdf/2206.14858.pdf) PALM the largest language model trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets.
 
 #### Text-to-image
 
