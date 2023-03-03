@@ -1,4 +1,4 @@
-## Generative AI models and their categories:
+## Generative Deep Neural Network models and their categories:
 
 #### Text-to-text
 
@@ -60,7 +60,7 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 
 VALL-E (neural codec language model) based on Meta's EnCodec, trained for speech-synthesis capabilities on the audio library LibriLight which contains 60,000 hours of English language speech from more than 7,000 speakers, curated from LibriVox. It can allegedly simulate anyone’s voice with 3 seconds of audio input.
 
-[nvidia Riva](https://www.nvidia.com/en-us/ai-data-science/products/riva/) is a GPU-accelerated automatic speech recognition (ASR) SDK for building fully customizable, real-time conversational AI pipelines and deploying them in clouds, in data centers, at the edge, or on embedded devices.
+[nvidia Riva](https://www.nvidia.com/en-us/ai-data-science/products/riva/) is a GPU-accelerated automatic speech recognition (ASR) SDK for building fully customizable, real-time pipelines and deploying them in clouds, in data centers, at the edge, or on embedded devices.
  
 #### Audio-to-text
 
