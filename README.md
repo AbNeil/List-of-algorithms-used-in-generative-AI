@@ -2,7 +2,11 @@
 
 #### Text-to-text
 
-LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion paramters yet outperforming [Minerva's ](https://arxiv.org/pdf/2206.14858.pdf) PALM the largest language model trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets.
+LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's ](https://arxiv.org/pdf/2206.14858.pdf) PALM the largest language model trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets with the 13B parameter model outperforming GPT3.
+
+#### Text-to-robotics
+
+Do As I Can, Not As I Say: aka [SayCan](https://say-can.github.io/) introduced using a grounding model to add physical context in robotics, it uses an LLM and affordance functions to select among a pre-defined set of primitives. This pre-defined set of primitives enables SayCan to use the so-called “scoring-mode” of the LLM to calculate the probability of the textual representation of the primitive in relevance to the high-level task. This requirement of exhaustive enumeration of all possible primitives limits the applicability of SayCan in scenarios with many possible skills, such as open-vocabulary or combinatorial tasks, which recently introduced GD [grounded decoding](https://grounded-decoding.github.io/) does through its flexible and expressive token-level grounding. 
 
 #### Text-to-image
 
@@ -55,8 +59,6 @@ Additionally two open source demo models [CogVideo](https://github.com/THUDM/Cog
 [Jukebox](https://openai.com/blog/jukebox/): a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along with a tool to explore the generated samples.
 
 [AudioLM](https://google-research.github.io/seanet/audiolm/examples/): by Google for high-quality audio generation with long-term consistency.
-
-* Text-to-Speech
 
 VALL-E (neural codec language model) based on Meta's EnCodec, trained for speech-synthesis capabilities on the audio library LibriLight which contains 60,000 hours of English language speech from more than 7,000 speakers, curated from LibriVox. It can allegedly simulate anyone’s voice with 3 seconds of audio input.
 
