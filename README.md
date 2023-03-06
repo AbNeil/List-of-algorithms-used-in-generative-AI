@@ -126,14 +126,23 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * Optimization algorithm (e.g., SGD, Adam)
 * Latent space
 
-#### U-Nets
+#### Latent Diffusion Models
 
+Type of deep generative neural network that uses a diffusion process to generate samples from complex data distributions. They have been shown to produce high-quality samples for tasks such as image generation and have been used in models such as Stable Diffusion, they use:
+
+1. ##### Restricted Boltzmann Machines (RBMs) a type of generative stochastic ANN that can learn a probability distribution over its set of inputs. They are often used for dimensionality reduction, feature learning, and collaborative filtering.
+
+2. ##### Deep Belief Networks (DBNs) generative graphical models composed of multiple layers of hidden variables with connections between the layers but not between units within each layer. They can be trained in an unsupervised manner using contrastive divergence and can be used for tasks such as classification and feature extraction
+
+3. ##### U-Nets which use:
 * Encoder network
 * Decoder network
 * Skip connections
 * Loss function
 * Optimization algorithm (e.g., SGD, Adam)
 * Up-sampling layer
+
+
 
 ## Paradigms with algorithms
 
@@ -301,6 +310,16 @@ gₜ,ⱼ the derivative of the loss function with respect to the j-th weight dur
 
 
 Even though it has good training time, Adam in some areas does not converge to an optimal solution, so for some tasks (such as image classification on popular CIFAR datasets) state-of-the-art results are still only achieved by applying SGD with momentum.
+
+Here’s an analogy to help you understand the differences between AdaGrad, Adam and SGD with Momentum:
+
+Imagine you are a hunter-gatherer searching for food in a vast landscape. The food represents the minimum of the loss function that you want to find.
+
+**SGD with Momentum**: This is like having a map and a compass to guide you towards the food. You take steps in the direction that your compass (gradient) points and also take into account your previous step (momentum) to help you move faster towards your goal.
+
+**AdaGrad**: This is like having a map that adapts to the terrain as you explore it. The map helps you navigate more effectively through difficult terrain (high curvature regions) by adjusting your step size based on past observations.
+
+**Adam**: This is like having both an adaptive map and a compass with momentum. Adam combines the best properties of AdaGrad and SGD with Momentum to help you navigate more effectively through difficult terrain while also taking into account your previous steps to move faster towards your goal.
 
 ![image](https://user-images.githubusercontent.com/88499318/209719581-bf735cde-50b9-44c8-bcf2-e33c88e5b245.png)
 
