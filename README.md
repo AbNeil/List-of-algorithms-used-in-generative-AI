@@ -130,11 +130,9 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 
 Type of deep generative neural network that uses a diffusion process to generate samples from complex data distributions. They have been shown to produce high-quality samples for tasks such as image generation and have been used in models such as Stable Diffusion, they use:
 
-1. ##### Restricted Boltzmann Machines (RBMs) a type of generative stochastic ANN that can learn a probability distribution over its set of inputs. They are often used for dimensionality reduction, feature learning, and collaborative filtering.
 
-2. ##### Deep Belief Networks (DBNs) generative graphical models composed of multiple layers of hidden variables with connections between the layers but not between units within each layer. They can be trained in an unsupervised manner using contrastive divergence and can be used for tasks such as classification and feature extraction
 
-3. ##### U-Nets which use:
+ ##### U-Nets which use:
 * Encoder network
 * Decoder network
 * Skip connections
@@ -191,7 +189,9 @@ Type of deep generative neural network that uses a diffusion process to generate
 * Deep belief networks (DBNs)
 * Hidden Markov models (HMMs)
 * Markov random fields (MRFs)
-* Restricted Boltzmann machines (RBMs)
+* Deep Belief Networks (DBNs) consist of two different types of neural networks – Belief (Bayesian) Network and Restricted Boltzmann Machines.
+** Restricted Boltzmann machines (RBMs) a type of generative stochastic ANN that can learn a probability distribution over its set of inputs. They are often used for dimensionality reduction, feature learning, and collaborative filtering.
+** Belief Network aka Bayesian Network an acyclic directed graphs (DAG) where the nodes are random variables. It defines a factorization of the joint probability distribution where the conditional probabilities form factors that are multiplied together. Bayesian/Belief Networks capture both conditionally dependent and conditionally independent relationships between random variables and compactly specify their joint distributions
 * Deep Boltzmann machines (DBMs)
 * Non-negative matrix factorization (NMF)
 
