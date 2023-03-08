@@ -189,9 +189,9 @@ Type of deep generative neural network that uses a diffusion process to generate
 * Deep belief networks (DBNs)
 * Hidden Markov models (HMMs)
 * Markov random fields (MRFs)
-* Deep Belief Networks (DBNs) consist of two different types of neural networks – Belief (Bayesian) Network and Restricted Boltzmann Machines.
-** Restricted Boltzmann machines (RBMs) a type of generative stochastic ANN that can learn a probability distribution over its set of inputs. They are often used for dimensionality reduction, feature learning, and collaborative filtering.
-** Belief Network aka Bayesian Network an acyclic directed graphs (DAG) where the nodes are random variables. It defines a factorization of the joint probability distribution where the conditional probabilities form factors that are multiplied together. Bayesian/Belief Networks capture both conditionally dependent and conditionally independent relationships between random variables and compactly specify their joint distributions
+* Deep Belief Networks (DBNs) consist of two different types of neural networks 
+    * Restricted Boltzmann machines (RBMs) a type of generative stochastic ANN that can learn a probability distribution over its set of inputs. They are often used for dimensionality reduction, feature learning, and collaborative filtering.
+    * Belief Network aka Bayesian Network an acyclic directed graphs (DAG) where the nodes are random variables. It defines a factorization of the joint probability distribution where the conditional probabilities form factors that are multiplied together. Bayesian/Belief Networks capture both conditionally dependent and conditionally independent relationships between random variables and compactly specify their joint distributions
 * Deep Boltzmann machines (DBMs)
 * Non-negative matrix factorization (NMF)
 
