@@ -6,12 +6,6 @@ LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-lang
 
 Visual Foundation Models like MS [Visual GPT](https://arxiv.org/abs/2303.04671) (Generative Pre-trained Transformer) use stable diffusion with controlnets and visual transformers.
 
-### Transformer Models
-
-- XLNet ([eXtreme MultiLingual Language Understanding](https://github.com/zihangdai/xlnet))
-- T5 ([Text-to-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html))
-- RoBERTa ([Robustly Optimized Bidirectional Encoder Representations from Transformers Approach](https://arxiv.org/abs/1907.11692))
-- ELECTRA ([Efficiently Learning an Encoder that Classifies Token Replacements Accurately](https://openreview.net/pdf?id=r1xMH1BtvB))
 - [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied) uses multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns).
 
 ## Text-to-robotics
@@ -366,3 +360,11 @@ Each of these sub-algorithms has its own advantages and disadvantages, and the c
 
 ![image](https://user-images.githubusercontent.com/88499318/224458032-6524d0f5-96a7-4451-847b-a02ea91a86d0.png)
 
+# Misc
+
+### Transformer Models
+
+- XLNet ([eXtreme MultiLingual Language Understanding](https://github.com/zihangdai/xlnet))
+- T5 ([Text-to-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html))
+- RoBERTa ([Robustly Optimized Bidirectional Encoder Representations from Transformers Approach](https://arxiv.org/abs/1907.11692))
+- ELECTRA ([Efficiently Learning an Encoder that Classifies Token Replacements Accurately](https://openreview.net/pdf?id=r1xMH1BtvB))
