@@ -20,7 +20,7 @@ Do As I Can, Not As I Say, aka [SayCan](https://say-can.github.io/) introduces u
 
 #### Text-to-image
 
-Stable diffusion, imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" noisy image and expands out of latent space using a variational autoencoder decoder that cleans the images of any remaining noise, controlnets have recetnly created a versatile method of guiding the diffusion
+[Stable diffusion](https://jalammar.github.io/illustrated-stable-diffusion/), imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" noisy image and expands out of latent space using a variational autoencoder decoder that cleans the images of any remaining noise, controlnets add a versatile method of guiding the diffusion
 
 #### Image-to-Text 
 
