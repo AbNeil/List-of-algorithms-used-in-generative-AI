@@ -4,6 +4,14 @@
 
 LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's ](https://arxiv.org/pdf/2206.14858.pdf) PALM the largest language model trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets with the 13B parameter model outperforming GPT3.
 
+Transformer Models
+* GPT (Generative Pre-trained Transformer)
+* XLNet (eXtreme MultiLingual Language Understanding)
+* T5 (Text-to-Text Transfer Transformer)
+* RoBERTa (Robustly Optimized BERT Approach)
+* ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
+* [PaLM-E](https://arxiv.org/abs/2303.03378)
+
 #### Text-to-robotics
 
 Do As I Can, Not As I Say: aka [SayCan](https://say-can.github.io/) introduced using a grounding model to add physical context in robotics, it uses an LLM and affordance functions to select among a pre-defined set of primitives. This pre-defined set of primitives enables SayCan to use the so-called “scoring-mode” of the LLM to calculate the probability of the textual representation of the primitive in relevance to the high-level task. This requirement of exhaustive enumeration of all possible primitives limits the applicability of SayCan in scenarios with many possible skills, such as open-vocabulary or combinatorial tasks, which recently introduced GD [grounded decoding](https://grounded-decoding.github.io/) does through its flexible and expressive token-level grounding. 
@@ -110,7 +118,7 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * RMSprop optimization
 * Dropout regularization
 
-#### GANs
+#### GANs (Generative adversarial networks)
 
 * Generator network
 * Discriminator network
@@ -118,13 +126,31 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * Optimization algorithm (e.g., SGD, Adam)
 * Minimax game
 
-#### VAEs
+#### Transformer models
 
-* Encoder network
-* Decoder network
-* Loss function
-* Optimization algorithm (e.g., SGD, Adam)
-* Latent space
+* Relative positional encoding
+* Adaptive softmax
+* Permutation language modeling
+* Span-based language modeling
+* Reversible transformer
+* Adaptive attention span
+* Dynamic convolutional layers
+
+#### BERT (Bidirectional Encoder Representations from Transformers)
+
+* Multi-layer bidirectional transformer
+* Self-attention
+* Multi-head attention
+* Positional encoding
+* Feedforward networks
+* Dropout
+* Adam optimization
+* Bidirectional training (specific to BERT)
+* WordPiece embeddings (specific to BERT)
+* Masked language modeling (specific to BERT)
+* Next sentence prediction (specific to BERT)
+* Fine-tuning (specific to BERT)
+
 
 #### Latent Diffusion Models
 
@@ -334,3 +360,6 @@ Hamiltonian Monte Carlo (HMC): This is a more advanced MCMC algorithm that takes
 Slice sampling: This is a simple and efficient MCMC algorithm that can be used when the target distribution is univariate (one-dimensional). It works by sampling uniformly from a slice of the target distribution.
 
 Each of these sub-algorithms has its own advantages and disadvantages, and the choice of which one to use depends on the problem at hand.
+
+![image](https://user-images.githubusercontent.com/88499318/224458032-6524d0f5-96a7-4451-847b-a02ea91a86d0.png)
+
