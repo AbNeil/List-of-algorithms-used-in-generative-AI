@@ -6,10 +6,10 @@ LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-lang
 
 * Transformer Models
 
-    * GPT (Generative Pre-trained Transformer)
+    * MS [Visual GPT](https://arxiv.org/abs/2303.04671) (Generative Pre-trained Transformer) uses stable diffusion w controlnets and transformers
     * XLNet (eXtreme MultiLingual Language Understanding)
-    *  T5 (Text-to-Text Transfer Transformer)
-    *  RoBERTa (Robustly Optimized Bidirectional Encoder Representations from Transformers Approach)
+    * T5 (Text-to-Text Transfer Transformer)
+    * RoBERTa (Robustly Optimized Bidirectional Encoder Representations from Transformers Approach)
     * ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
     * [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied)... multi-modal information (text, images, audio, and video sensor data such as temperature or humidity, location data such as GPS coordinates, and time-series data such as stock prices or weather patterns).
 
@@ -153,10 +153,11 @@ Shazam and google search using Discrete FFT fast fourier transforms for audio cl
 * Fine-tuning (specific to BERT)
 
 
-#### Latent Diffusion Models
+#### Visual Foundation Models 
 
-Type of deep generative neural network that uses a diffusion process to generate samples from complex data distributions. They have been shown to produce high-quality samples for tasks such as image generation and have been used in models such as Stable Diffusion, they use:
-
+* ControlNets: MLSD Canny Depth and openpose
+* Visual Transformers 
+* Latent Diffusion Models: i.e Stable
 
 
  ##### U-Nets which use:
