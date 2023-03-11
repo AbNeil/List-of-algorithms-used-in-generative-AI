@@ -9,7 +9,7 @@ LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-lang
     * GPT (Generative Pre-trained Transformer)
     * XLNet (eXtreme MultiLingual Language Understanding)
     *  T5 (Text-to-Text Transfer Transformer)
-    *  RoBERTa (Robustly Optimized BERT Approach)
+    *  RoBERTa (Robustly Optimized Bidirectional Encoder Representations from Transformers Approach)
     * ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
     * [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied)... multi-modal information (text, images, audio, and video sensor data such as temperature or humidity, location data such as GPS coordinates, and time-series data such as stock prices or weather patterns).
 
