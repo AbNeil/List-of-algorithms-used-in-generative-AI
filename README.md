@@ -4,13 +4,14 @@
 
 LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's ](https://arxiv.org/pdf/2206.14858.pdf) PALM the largest language model trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets with the 13B parameter model outperforming GPT3.
 
-Transformer Models
-* GPT (Generative Pre-trained Transformer)
-* XLNet (eXtreme MultiLingual Language Understanding)
-* T5 (Text-to-Text Transfer Transformer)
-* RoBERTa (Robustly Optimized BERT Approach)
-* ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
-* [PaLM-E](https://arxiv.org/abs/2303.03378)
+* Transformer Models
+
+    * GPT (Generative Pre-trained Transformer)
+    * XLNet (eXtreme MultiLingual Language Understanding)
+    *  T5 (Text-to-Text Transfer Transformer)
+    *  RoBERTa (Robustly Optimized BERT Approach)
+    * ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
+    * [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied)... multi-modal information (text, images, audio, and video sensor data such as temperature or humidity, location data such as GPS coordinates, and time-series data such as stock prices or weather patterns).
 
 #### Text-to-robotics
 
