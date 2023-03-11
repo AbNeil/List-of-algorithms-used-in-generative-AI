@@ -4,9 +4,10 @@
 
 LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's ](https://arxiv.org/pdf/2206.14858.pdf) PALM the largest language model trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets with the 13B parameter model outperforming GPT3.
 
+Visual Foundation Models like MS [Visual GPT](https://arxiv.org/abs/2303.04671) (Generative Pre-trained Transformer) uses stable diffusion w controlnets and visual transformers
+
 * Transformer Models
 
-    * MS [Visual GPT](https://arxiv.org/abs/2303.04671) (Generative Pre-trained Transformer) uses stable diffusion w controlnets and transformers
     * XLNet (eXtreme MultiLingual Language Understanding)
     * T5 (Text-to-Text Transfer Transformer)
     * RoBERTa (Robustly Optimized Bidirectional Encoder Representations from Transformers Approach)
