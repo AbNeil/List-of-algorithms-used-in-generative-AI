@@ -1,26 +1,26 @@
-## Generative Deep Neural Network models and their categories:
+# Generative Deep Neural Network models and their categories:
 
-#### Text-to-text
+## Text-to-text
 
-LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's ](https://arxiv.org/pdf/2206.14858.pdf) PALM the largest language model trained on 540 Billion paramters meaning it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets with the 13B parameter model outperforming GPT3.
+LLMs like Google Bard, Bing, and [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's PALM](https://arxiv.org/pdf/2206.14858.pdf), the largest language model trained on 540 Billion parameters. This means that it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. The 13B parameter model outperforms GPT3.
 
-Visual Foundation Models like MS [Visual GPT](https://arxiv.org/abs/2303.04671) (Generative Pre-trained Transformer) uses stable diffusion w controlnets and visual transformers
+Visual Foundation Models like MS [Visual GPT](https://arxiv.org/abs/2303.04671) (Generative Pre-trained Transformer) use stable diffusion with controlnets and visual transformers.
 
-* Transformer Models
+### Transformer Models
 
-    * XLNet (eXtreme MultiLingual Language Understanding)
-    * T5 (Text-to-Text Transfer Transformer)
-    * RoBERTa (Robustly Optimized Bidirectional Encoder Representations from Transformers Approach)
-    * ELECTRA (Efficiently Learning an Encoder that Classifies Token Replacements Accurately)
-    * [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied)... multi-modal information (text, images, audio, and video sensor data such as temperature or humidity, location data such as GPS coordinates, and time-series data such as stock prices or weather patterns).
+- XLNet ([eXtreme MultiLingual Language Understanding](https://github.com/zihangdai/xlnet))
+- T5 ([Text-to-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html))
+- RoBERTa ([Robustly Optimized Bidirectional Encoder Representations from Transformers Approach](https://arxiv.org/abs/1907.11692))
+- ELECTRA ([Efficiently Learning an Encoder that Classifies Token Replacements Accurately](https://openreview.net/pdf?id=r1xMH1BtvB))
+- [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied) uses multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns).
 
-#### Text-to-robotics
+## Text-to-robotics
 
-Do As I Can, Not As I Say: aka [SayCan](https://say-can.github.io/) introduced using a grounding model to add physical context in robotics, it uses an LLM and affordance functions to select among a pre-defined set of primitives. This pre-defined set of primitives enables SayCan to use the so-called “scoring-mode” of the LLM to calculate the probability of the textual representation of the primitive in relevance to the high-level task. This requirement of exhaustive enumeration of all possible primitives limits the applicability of SayCan in scenarios with many possible skills, such as open-vocabulary or combinatorial tasks, which recently introduced GD [grounded decoding](https://grounded-decoding.github.io/) does through its flexible and expressive token-level grounding. 
+Do As I Can, Not As I Say, aka [SayCan](https://say-can.github.io/) introduces using a grounding model to add physical context in robotics. It uses an LLM and affordance functions to select among a pre-defined set of primitives. This pre-defined set of primitives enables SayCan to use the so-called "scoring-mode" of the LLM to calculate the probability of the textual representation of the primitive in relevance to the high-level task. However, this requirement of exhaustive enumeration of all possible primitives limits the applicability of SayCan in scenarios with many possible skills, such as open-vocabulary or combinatorial tasks. [Grounded decoding](https://grounded-decoding.github.io/), which was recently introduced, does this through its flexible and expressive token-level grounding.
 
 #### Text-to-image
 
-Stable diffusion, imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" gaussian noise image and expands out of latent space using a variational autoencoder decoder that cleans the images of any remaining noise 
+Stable diffusion, imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" noisy image and expands out of latent space using a variational autoencoder decoder that cleans the images of any remaining noise, controlnets have recetnly created a versatile method of guiding the diffusion
 
 #### Image-to-Text 
 
