@@ -28,7 +28,7 @@ Do As I Can, Not As I Say, aka [SayCan](https://say-can.github.io/) introduces u
 
 [Phenaki](https://phenaki.video/): by Google, can generate realistic videos from a sequence of textual prompts. It can be accessed via its API on GitHub, and is the first model that can generate videos from open domain time variable prompts. It achieves this by jointly training on a large image-text pairs dataset and a smaller number of video-text examples, resulting in generalization beyond what is available in video datasets.
 
-Additionally two open source demo models [CogVideo](https://github.com/THUDM/CogVideo) by a groups of cs students and [a model by Antonia Antonova](https://antonia.space/text-to-video-generation) 
+Two open source demo models [CogVideo](https://github.com/THUDM/CogVideo) by a groups of cs students and [a model by Antonia Antonova](https://antonia.space/text-to-video-generation) 
  
 #### Video-to-text
 
