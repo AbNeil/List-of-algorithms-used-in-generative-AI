@@ -2,7 +2,7 @@
 
 ## Text-to-text
 
-LLMs like Google Bard, Bing, and [Alpaca](https://alpaca-ai-custom3.ngrok.io/) grocked from [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's PALM](https://arxiv.org/pdf/2206.14858.pdf), the largest language model trained on 540 Billion parameters. This means that it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. The 13B parameter model outperforms GPT3.
+LLMs like Google Bard, Bing, and Stanford's [Alpaca](https://alpaca-ai-custom3.ngrok.io/) trimmed from [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's PALM](https://arxiv.org/pdf/2206.14858.pdf), the largest language model trained on 540 Billion parameters. This means that it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets even LLaMa13B outperforms GPT3.
 
 Visual Foundation Models like MS [Visual GPT](https://arxiv.org/abs/2303.04671) (Generative Pre-trained Transformer) use stable diffusion with controlnets and visual transformers.
 
