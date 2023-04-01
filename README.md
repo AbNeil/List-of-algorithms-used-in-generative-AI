@@ -6,7 +6,7 @@ LLMs like Google Bard, Bing, and Stanford's [Alpaca](https://alpaca-ai-custom3.n
 
 [Visual GPT](https://arxiv.org/abs/2303.04671) uses stable diffusion with controlnets and visual transformers.
 
-- [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied) uses multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns).
+- [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied (multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns))).
 
 ## Text-to-robotics
 
