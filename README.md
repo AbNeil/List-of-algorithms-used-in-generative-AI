@@ -4,8 +4,6 @@
 
 LLMs like Google Bard, Bing, and Stanford's [Alpaca](https://alpaca-ai-custom3.ngrok.io/) trimmed from [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's PALM](https://arxiv.org/pdf/2206.14858.pdf), the largest language model trained on 540 Billion parameters. This means that it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets even LLaMa13B outperforms GPT3.
 
-[Visual GPT](https://arxiv.org/abs/2303.04671) uses stable diffusion with controlnets and visual transformers.
-
 [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied (multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns))).
 
 ## Text-to-robotics
@@ -15,6 +13,8 @@ Do As I Can, Not As I Say, aka [SayCan](https://say-can.github.io/) introduces u
 #### Text-to-image
 
 [Stable diffusion](https://jalammar.github.io/illustrated-stable-diffusion/), imagen, midjourney work using and encoder netwwork like frozen CLIP and classifier free guidance, in the latent space: UNet with a scheduler to draw by detecting edges and curves in a preset or randomly generated "seed" noisy image and expands out of latent space using a variational autoencoder decoder that cleans the images of any remaining noise, controlnets add a versatile method of guiding the diffusion
+
+[Visual GPT](https://arxiv.org/abs/2303.04671) uses stable diffusion with controlnets (which can also be used for video, with stabilization provided by feeding back the prior output frame as a partial init image. The input frames are fed in as the ControlNet control image through the appropriate detector._ and visual transformers)
 
 #### Image-to-Text 
 
