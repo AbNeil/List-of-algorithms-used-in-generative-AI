@@ -6,6 +6,9 @@ LLMs like Google Bard, Bing, and Stanford's [Alpaca](https://alpaca-ai-custom3.n
 
 [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied (multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns))).
 
+![image](https://user-images.githubusercontent.com/88499318/232379510-8a93bdc6-7dd8-4377-9b11-2eb7972aabfe.png)
+
+
 ## Text-to-robotics
 
 Do As I Can, Not As I Say, aka [SayCan](https://say-can.github.io/) introduces using a grounding model to add physical context in robotics. It uses an LLM and affordance functions to select among a pre-defined set of primitives. This pre-defined set of primitives enables SayCan to use the so-called "scoring-mode" of the LLM to calculate the probability of the textual representation of the primitive in relevance to the high-level task. However, this requirement of exhaustive enumeration of all possible primitives limits the applicability of SayCan in scenarios with many possible skills, such as open-vocabulary or combinatorial tasks. [Grounded decoding](https://grounded-decoding.github.io/), which was recently introduced, does this through its flexible and expressive token-level grounding.
