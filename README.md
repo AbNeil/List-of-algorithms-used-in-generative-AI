@@ -65,6 +65,10 @@ Two open source demo models [CogVideo](https://github.com/THUDM/CogVideo) by a g
 
 [MusicLM](https://google-research.github.io/seanet/musiclm/examples/): by Google for high-quality music generation.
 
+Max Hilsdorf's project uses Shapley values to understand how AI systems tag new music tracks by analyzing the presence of specific instruments. https://github.com/MaxHilsdorf/music_stem_shapley_values
+Leonie Monigatti's article focuses on the BirdCLEF2022 Kaggle competition, where participants created classifiers for bird-song recordings. The approach involves converting audio waveforms into mel spectrograms for deep learning  models.https://www.kaggle.com/competitions/birdclef-2022 https://github.com/MaxHilsdorf/music_stem_shapley_values/blob/main/README.md https://www.kaggle.com/code/jingwora1/birdclef2022-united
+Bildea Ana demonstrates how to transcribe audio using OpenAI's Whisper model on Hugging Face, then summarizes it using the BART encoder. This method can be applied to various audio files, but always double-check copyright and license status.
+Luís Roque's project relies on Whisper for transcription and then uses [PyAnnotate](https://github.com/pyannote/pyannote-audio) for speaker diarization, which segments speech by different speakers. https://www.kaggle.com/datasets/xhlulu/bart-models-hugging-face-model-repository
 
 [Jukebox](https://openai.com/blog/jukebox/): a neural net that generates music, including rudimentary singing, as raw audio in a variety of genres and artist styles. We’re releasing the model weights and code, along with a tool to explore the generated samples.
 
