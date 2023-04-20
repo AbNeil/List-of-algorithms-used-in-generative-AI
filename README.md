@@ -4,7 +4,7 @@
 
 LLMs like Google Bard, Bing, and Stanford's [Alpaca](https://alpaca-ai-custom3.ngrok.io/) trimmed from [LLaMa](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) trained on 65 Billion parameters yet outperforming [Minerva's PALM](https://arxiv.org/pdf/2206.14858.pdf), the largest language model trained on 540 Billion parameters. This means that it is possible to train state-of-the-art language models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets even LLaMa13B outperforms GPT3.
 
-[PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied (multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns))).
+[PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with [Embodied](![image](https://user-images.githubusercontent.com/88499318/224458032-6524d0f5-96a7-4451-847b-a02ea91a86d0.png)) (multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns))).
 
 
 
@@ -367,7 +367,7 @@ Slice sampling: This is a simple and efficient MCMC algorithm that can be used w
 
 Each of these sub-algorithms has its own advantages and disadvantages, and the choice of which one to use depends on the problem at hand.
 
-![image](https://user-images.githubusercontent.com/88499318/224458032-6524d0f5-96a7-4451-847b-a02ea91a86d0.png)
+
 
 # Misc
 
