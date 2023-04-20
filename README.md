@@ -6,7 +6,6 @@ LLMs like Google Bard, Bing, and Stanford's [Alpaca](https://alpaca-ai-custom3.n
 
 [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with Embodied (multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns))).
 
-![image](https://user-images.githubusercontent.com/88499318/232379510-8a93bdc6-7dd8-4377-9b11-2eb7972aabfe.png)
 
 
 ## Text-to-robotics
@@ -378,3 +377,5 @@ Each of these sub-algorithms has its own advantages and disadvantages, and the c
 - T5 ([Text-to-Text Transfer Transformer](https://ai.googleblog.com/2020/02/exploring-transfer-learning-with-t5.html))
 - RoBERTa ([Robustly Optimized Bidirectional Encoder Representations from Transformers Approach](https://arxiv.org/abs/1907.11692))
 - ELECTRA ([Efficiently Learning an Encoder that Classifies Token Replacements Accurately](https://openreview.net/pdf?id=r1xMH1BtvB))
+
+![image](https://user-images.githubusercontent.com/88499318/232379510-8a93bdc6-7dd8-4377-9b11-2eb7972aabfe.png)
