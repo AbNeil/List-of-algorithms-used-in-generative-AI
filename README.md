@@ -58,11 +58,11 @@ Two open source demo models [CogVideo](https://github.com/THUDM/CogVideo) by a g
 
 #### Image-to-3Dmodel
 
-[Get3d](https://github.com/nv-tlabs/GET3D) and the more streamlined [Instant NGP](https://github.com/NVlabs/instant-ngp) are two open source CUDA models for generating a 3d map of an image(s) [made by NVidia](https://nvlabs.github.io/instant-ngp/)
+[Get3d](https://github.com/nv-tlabs/GET3D) the more streamlined [Instant NGP](https://github.com/NVlabs/instant-ngp) are two open source CUDA models for generating a 3d map of an image(s) [made by NVidia](https://nvlabs.github.io/instant-ngp/) and [Shap-e](https://arxiv.org/abs/2305.02463)
 
 ### Text-to-image-to-3Dmesh
 
-["Text2room"](https://arxiv.org/abs/2303.11989) and [Shap-e](https://arxiv.org/abs/2305.02463)
+["Text2room"](https://arxiv.org/abs/2303.11989) 
 
 #### Text-to-Audio
 
