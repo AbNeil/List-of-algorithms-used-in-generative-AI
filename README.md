@@ -6,7 +6,9 @@ LLMs like Google Bard, Bing, and Stanford's [Alpaca](https://alpaca-ai-custom3.n
 
 [PaLM-E](https://arxiv.org/abs/2303.03378) (Pathways Language Model with [Embodied](https://user-images.githubusercontent.com/88499318/224458032-6524d0f5-96a7-4451-847b-a02ea91a86d0.png)) (multi-modal information (text, images, audio, and video. Sensor data like temperature or humidity, location data aka GPS coordinates, and time-series data like stock prices or weather patterns))).
 
+https://ai.facebook.com/blog/imagebind-six-modalities-binding-ai/
 
+[Unlimiformer: Long-Range Transformers with Unlimited Length Input](https://arxiv.org/abs/2305.01625)
 
 ## Text-to-robotics
 
